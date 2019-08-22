@@ -1,0 +1,33 @@
+.square {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    border: solid;
+}
+
+.square1 {
+    height: 250px;
+    width: 250px;
+    background-color: red;
+
+}
+
+.square2 {
+    height: 250px;
+    width: 250px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-color: blue;
+
+}
+
+.square3 {
+    height: 250px;
+    width: 250px;
+    top: 25%;
+    left: 25%;
+    position: absolute;
+    background-color:chartreuse;
+
+}
