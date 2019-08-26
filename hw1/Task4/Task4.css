@@ -1,0 +1,169 @@
+@media screen and (min-width: 1025px) {
+    #container {
+        position: relative;
+        border: solid;
+        flex-flow: wrap;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .square {
+        min-width: 10%;
+        min-height: 100px;
+        margin: 5px;
+    }
+
+    .square1 {
+        height: 100px;
+        flex: 2;
+        background: red;
+
+    }
+
+    .square2 {
+        height: 100px;
+        flex: 4;
+        background: orange;
+    }
+
+    .square3 {
+        height: 400px;
+        flex: 1 100%;
+        background: green;
+    }
+
+    .square4 {
+        height: 100px;
+        flex: 2;
+        background: brown;
+    }
+
+    .square5 {
+        height: 100px;
+        flex: 4;
+        background: blue;
+    }
+
+    .square6 {
+        height: 100px;
+        flex: 3;
+        background: darkmagenta;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #container {
+        position: relative;
+        border: solid;
+        flex-flow: wrap;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .square {
+        min-width: 10%;
+        min-height: 100px;
+        margin: 5px;
+    }
+
+    .square1 {
+        order: 3;
+        height: 400px;
+        flex: 1 100%;
+        background: red;
+    }
+
+    .square2 {
+        height: 100px;
+        order: 1;
+        flex: 2;
+        background: orange;
+    }
+
+    .square3 {
+        order: 4;
+        height: 100px;
+        flex: 2;
+        background: green;
+    }
+
+    .square4 {
+        display: none;
+        width: 100%;
+        background: brown;
+    }
+
+    .square5 {
+        order: 5;
+        height: 100px;
+        flex: 3;
+        background: blue;
+    }
+
+    .square6 {
+        order: 2;
+        height: 100px;
+        flex: 4;
+        background: darkmagenta;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #container {
+        position: relative;
+        height: 100vh;
+        border: solid;
+        flex-flow: column;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .square {
+        min-width: 10%;
+        min-height: 100px;
+        margin: 5px;
+    }
+
+    .square1 {
+        order: 3;
+        flex: 2 55%;
+        margin-bottom: 30%;
+        background: red;
+    }
+
+    .square2 {
+        display: none;
+        height: 100px;
+        order: 1;
+        flex: 2;
+        background: orange;
+    }
+
+    .square3 {
+        order: 1;
+        height: 500px;
+        flex: 10%;
+        background: green;
+    }
+
+    .square4 {
+        display: none;
+        width: 100%;
+        background: brown;
+    }
+
+    .square5 {
+        display: none;
+        order: 5;
+        height: 100px;
+        flex: 3;
+        background: blue;
+    }
+
+    .square6 {
+        order: 2;
+        height: 350px;
+        flex: 10%;
+        background: darkmagenta;
+    }
+}
